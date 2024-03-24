@@ -26,7 +26,7 @@ public class AppTest extends BaseTest {
 
 	String productName = "ZARA COAT 3";
 	
-	@Test(enabled = false, retryAnalyzer = Retry.class)
+	@Test(enabled = true, retryAnalyzer = Retry.class)
 	public void checkTest() {
 		Assert.assertTrue(false);
 	}
